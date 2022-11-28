@@ -100,7 +100,7 @@ h6 {
 .main__wrapper {
     height: 100vh;
     width: 100%;
-    background-color: #e3e3e3;
+    overflow: hidden;
 
 }
 .content__wrapper {
@@ -111,7 +111,7 @@ h6 {
 /*? *****Language************/
 .content__language__block {
     position: absolute;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     width: 10%;
     height: 20%;
     top: 0;
@@ -123,6 +123,60 @@ h6 {
     position: absolute;
     z-index: 3;
     width: 100%;
+    height: 100%;
+    background-color: #e3e3e3;
+}
+.main__content__circle{
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    width: 700px;
+    position: absolute;
+    border-radius: 50%;
+    top: 10%;
+    left: calc(50% - 350px);
+    border: 5px solid #000;
+}
+.main__content__circle__wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+}
+.circle__sub__block1{
+    background-color: #000;
+    border-radius: 50%;    
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -20px;
+    left: calc(50% - 20px);
+}
+.circle__sub__block2{
+    background-color: #000;
+    border-radius: 50%;    
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: calc(50%);
+    right: -20px;
+}
+.circle__sub__block3{
+    background-color: #000;
+    border-radius: 50%;    
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: calc(50%);
+    left: -20px;
+}
+.circle__sub__block3{
+    background-color: #000;
+    border-radius: 50%;    
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: calc(50%);
+    left: -20px;
 }
 /*? *****footer content************/
 .footer__social__block {
@@ -130,7 +184,7 @@ h6 {
     bottom: 0;
     left: 10%;
     height: 100px;
-    background-color: blue;
+    background-color: rgb(121, 121, 185);
     width: 320px;
     z-index: 4;
 }
