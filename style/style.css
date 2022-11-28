@@ -132,9 +132,11 @@ h6 {
     width: 700px;
     position: absolute;
     border-radius: 50%;
-    top: 10%;
+    bottom: -10%;
     left: calc(50% - 350px);
     border: 5px solid #000;
+    transition: ease-in 0.2s;
+
 }
 .main__content__circle__wrapper{
     width: 100%;
@@ -157,7 +159,7 @@ h6 {
     width: 40px;
     height: 40px;
     position: absolute;
-    top: calc(50%);
+    top: calc(44%);
     right: -20px;
 }
 .circle__sub__block3{
@@ -166,17 +168,26 @@ h6 {
     width: 40px;
     height: 40px;
     position: absolute;
-    top: calc(50%);
+    top: calc(44%);
     left: -20px;
 }
-.circle__sub__block3{
+.circle__sub__block4{
     background-color: #000;
     border-radius: 50%;    
     width: 40px;
     height: 40px;
     position: absolute;
-    top: calc(50%);
-    left: -20px;
+    top: 11%;
+    left: 12%;
+}
+.circle__sub__block5{
+    background-color: #000;
+    border-radius: 50%;    
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 11%;
+    left: 82%;
 }
 /*? *****footer content************/
 .footer__social__block {
