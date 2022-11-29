@@ -126,13 +126,28 @@ h6 {
     height: 100%;
     background-color: #e3e3e3;
 }
+.circle__wrapper{
+    height: 700px;
+    width: 700px;
+    position: absolute; 
+    bottom: 0;
+    left: calc(50% - 350px);
+}
+.main__content__circle__block{
+    height: 700px;
+    width: 700px;
+    position: relative;
+    background-color: red;
+    bottom: 0;
+    left: calc(50% - 350px);
+}
 .main__content__circle{
-    background-color: rgb(255, 255, 255);
+
     height: 700px;
     width: 700px;
     position: absolute;
     border-radius: 50%;
-    bottom: -10%;
+
     left: calc(50% - 350px);
     border: 5px solid #000;
     transition: ease-in 0.2s;
@@ -147,44 +162,44 @@ h6 {
 .circle__sub__block1{
     background-color: #000;
     border-radius: 50%;    
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     position: absolute;
-    top: -20px;
+    top: -17px;
     left: calc(50% - 20px);
 }
 .circle__sub__block2{
     background-color: #000;
     border-radius: 50%;    
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     position: absolute;
     top: calc(44%);
-    right: -20px;
+    right: -17px;
 }
 .circle__sub__block3{
     background-color: #000;
     border-radius: 50%;    
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     position: absolute;
     top: calc(44%);
-    left: -20px;
+    left: -17px;
 }
 .circle__sub__block4{
     background-color: #000;
     border-radius: 50%;    
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     position: absolute;
     top: 11%;
-    left: 12%;
+    left: 13%;
 }
 .circle__sub__block5{
     background-color: #000;
     border-radius: 50%;    
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     position: absolute;
     top: 11%;
     left: 82%;
