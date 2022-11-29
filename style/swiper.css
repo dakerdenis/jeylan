@@ -31,7 +31,20 @@
   }
   .swiper-button-next{
     z-index: 5;
+    background-image: url('./icons/up.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0);
+    width: 30%;
+    background-color: green;
+
   }
   .swiper-button-prev{
     z-index: 5;
+    background-image: url('./icons/down.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0);
+    width: 30%;
+    background-color: green;
   }
