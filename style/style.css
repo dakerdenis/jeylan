@@ -126,6 +126,41 @@ h6 {
     position: absolute;
     top: -60px;
     right: -60px;
+    z-index: 4;
+}
+.language__circle__block img {
+    width: 100%;
+}
+.language__circle__small1{
+
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 47%;
+    left: -8%;
+    border-radius: 50%;
+    z-index: 5;
+}
+.language__circle__small2{
+
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    border-radius: 50%;
+    z-index: 5;
+}
+.language__circle__small3{
+
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: -7%;
+    left: 50%;
+    border-radius: 50%;
+    z-index: 5;
+    transform: scale(1.5);
 }
 /*? *****main content************/
 .main__content__block {
