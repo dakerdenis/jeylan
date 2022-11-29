@@ -299,20 +299,33 @@ h6 {
 .main__navigation__block {
     position: absolute;
     width: 200px;
-    height: 50px;
+    height: 55px;
     right: 5%;
     bottom: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.main__navigation__down {
-}
+
 .main__number {
+    background-color: red;
+    width: 30%;
+    height: 100;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .main__number__img {
+    position: absolute;
 }
 .main__number__p {
+    position: absolute;
+}
+.main__number__p  {
+    font-size: 28px;
+    font-weight: 700;
 }
 .main__navigation__up {
 }
