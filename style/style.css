@@ -186,7 +186,7 @@ h6 {
     height: 700px;
     width: 700px;
     position: absolute; 
-    bottom: -50%;
+    bottom: 0%;
     left: calc(50% - 350px);
 }
 .main__content__circle__block{
@@ -194,7 +194,7 @@ h6 {
     width: 700px;
     position: relative;
 
-    bottom: 0;
+    bottom: -65%;
     left: calc(50% - 350px);
     z-index: 3;
 }
@@ -273,6 +273,25 @@ h6 {
     height: 30px;
     position: absolute;
     top: 83px;
+    left: 83.6%;
+}
+.circle__sub__block6{
+    background-color: rgb(71, 14, 14);
+    border-radius: 50%;    
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 12%;
+    right: 83.6%;
+
+}
+.circle__sub__block7{
+    background-color: rgb(71, 14, 14);
+    border-radius: 50%;    
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 12%;
     left: 83.6%;
 }
 /*? *****main slider content************/
