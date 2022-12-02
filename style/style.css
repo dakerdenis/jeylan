@@ -301,6 +301,61 @@ h6 {
     height: 100%;
 
 }
+.slider__content__wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.slider__content__back__image {
+}
+.slider__content__logo {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    overflow: hidden;
+
+    margin-top: 9em;
+}
+.content__logo__ing {
+    width: 22%;
+    overflow: hidden;
+    height: 100%;
+
+}
+.content__logo__ing img{
+    
+    width: 50%;
+
+}
+.slider__content__clients {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.slider__content__clients__wrapper {
+
+    height: 48%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.slider__client__element {
+    width: 10%;
+    height: 150px;
+    background-color: #e3e3e3;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*? *****MAIN navigation block************/
 .main__navigation__block {
     position: absolute;
