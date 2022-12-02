@@ -227,22 +227,9 @@ h6 {
     position: relative;
     border-radius: 50%;
     transition: ease-in 5s;
-    animation: move 5s infinite linear;
+    rotate: -180deg;
 }
-@keyframes move {
-    0% {
-      transform: rotate(0deg);
 
-    }
-    50% {
-      transform: rotate(180deg);
-
-    }
-    100% {
-      transform: rotate(360deg);
-
-    }
-  }
 .circle__sub__block1{
     background-color: rgba(14, 27, 71, 1);
     border-radius: 50%;    
