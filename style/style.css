@@ -363,13 +363,15 @@ h6 {
     color: rgba(14, 27, 71, 1);
 }
 /*************3rd slide content*****************/
+.slider__content__wrapper_3{
 
+}
 .container{
     width: 90%;
     margin: auto;
     overflow:hidden;
     border: 1px solid #d1d1d1;
-    height: 300px;
+
     margin-top: 20px;
     max-width: 800px
     
