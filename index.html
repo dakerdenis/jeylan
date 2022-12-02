@@ -81,7 +81,9 @@
             <!------------>
             <div class="main__number">
                 <img src="./style/icons/krug.svg" alt="" class="main__number__img">
-                <p class="main__number__p" id="main__number__p"></p>
+                <p class="main__number__p" 
+                  <span id="main__number__p"></span>></span>
+                </p>
             </div>
    <!------------>
             <div class="swiper-button-prev" id="swiper-button-prev"></div>
@@ -118,6 +120,8 @@
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
+        speed: 200,
+        spaceBetween: 0,
         cssMode: true,
         navigation: {
           nextEl: ".swiper-button-next",

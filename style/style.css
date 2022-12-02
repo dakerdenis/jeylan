@@ -226,8 +226,8 @@ h6 {
     height: 100%;
     position: relative;
     border-radius: 50%;
-    transition: ease-in 5s;
-    rotate: -180deg;
+    transition: ease-in 0.3s;
+   
 }
 
 .circle__sub__block1{
