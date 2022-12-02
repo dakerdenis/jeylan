@@ -18,7 +18,7 @@ function slider__number_up(){
     if(number <= max_number){
         number = number + 1;
         number_slide.textContent = number;
-        arrow__up.disabled = true;
+        arrow__up.zIndex  = "1";
         rotation = rotation + 45;
         var str =  rotation.toString();
 
